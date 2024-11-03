@@ -1,4 +1,5 @@
 import './index.css';
+import Todo from './Todo.jsx';
 
 function App(props) {
   return (
@@ -8,7 +9,7 @@ function App(props) {
         role="list"
         clasName="todo-list stack-large stack-exception"
         aria-labelledby="list-heading">
-          
+          <Todo />
       </ul>
     </div>
   );
